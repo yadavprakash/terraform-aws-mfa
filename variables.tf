@@ -17,7 +17,7 @@ variable "tags" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-mfa"
+  default     = "https://github.com/yadavprakash/terraform-aws-mfa"
   description = "Terraform current module repo"
 }
 
@@ -35,8 +35,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "yadavprakash"
+  description = "ManagedBy, eg 'yadavprakash'."
 }
 
 variable "groups" {
